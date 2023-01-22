@@ -1,0 +1,88 @@
+.first-container{
+    margin: 100px 250px 100px 250px;
+    background-color: hsl(0deg 0% 100%);
+}
+.inner-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 20px;
+    box-shadow: 0px 15px 19.5px 8px rgb(205 218 228 / 66%);
+}
+/* .grid-item{
+
+} */
+.grid-item.one{
+    background-color: hsl(219deg 81% 54%);
+    border-radius: 20px 0px 0px 20px;
+    padding: 30px;
+}
+.grid-item.two{
+    border-radius: 0px 20px 20px 0px;
+    padding: 30px;
+    padding-bottom: 0px;
+    background-color: hsl(0deg 0% 100%);
+}
+.one h2{
+    color: white;
+    font-style: italic;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.one p{
+    color: hsl(201deg 100% 91%);
+    font-weight: bold;
+    text-align: center;
+}
+.src{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -50px;
+  margin-top: 70px;
+}
+.cross{
+    float: right;
+}
+.two h2{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.two p{
+    font-weight: bold;
+    color: hsl(0deg 0% 74%);
+    margin-bottom: 50px;
+}
+
+.footer-text{
+    margin-top: 50px;
+    font-weight: lighter !important;
+    font-size: 14px;
+}
+label{
+    font-weight: bold;
+}
+.text-box{
+    border-radius: 20px;
+    height: 30px;
+    width: 280px;
+    margin-top: 10px;
+    padding-left: 20px;
+    border-color:rgb(179, 221, 221);
+}
+.btn{
+    height: 35px;
+    width: 150px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(10, 211, 221);
+}
+
+.login-btn{
+    background-color: blue;
+    border-color: blue;
+}
+.signup-btn{
+    border-color: rgb(10, 211, 221);
+}
